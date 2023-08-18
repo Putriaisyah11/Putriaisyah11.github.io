@@ -1,0 +1,60 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+h1, h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container-body {
+    margin-left: 240px;
+}
+
+/* Navbar */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  .active {
+    background-color: #555;
+  }
+  
+  /* Skill bar */
+
+  

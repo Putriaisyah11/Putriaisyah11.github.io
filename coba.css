@@ -1,0 +1,23 @@
+.skill-bar {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .skill {
+    height: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: right;
+    padding: 3px;
+  }
+  
+  .skill::after {
+    content: "";
+    display: block;
+    background-color: #4caf50;
+    height: 100%;
+    width: 0;
+  }
+  
+  
